@@ -1,3 +1,4 @@
 *.pyc
 *.json
 .scrapy/
+.ipynb_checkpoints/

@@ -1,0 +1,17 @@
+
+group:
+  - url
+  - title
+  - description
+  - # of members
+  - location (city, gps loc, ...)
+  - events (futur and past events) (urls)
+
+events:
+  - url
+  - title
+  - location
+  - group (url)
+  - time (start + end)
+  - description
+  - attendees (urls)

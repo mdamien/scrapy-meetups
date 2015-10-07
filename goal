@@ -6,13 +6,13 @@ group:
   X # of members
   X location (city, gps loc, ...)
   x futur events
-  - past events
+  x past events
 
 event:
   X url
   X title
   X location
-  (X) group (url) (deduct via url)
+  X group (deduct via url)
   x start time
   X description
   x attendees (urls)
@@ -20,4 +20,10 @@ event:
 people:
   X url
   X name
+  - infos
   - groups
+
+distribute:
+ X map
+ - graph (ankava)
+ - put dataset on google drive
